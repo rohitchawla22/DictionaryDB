@@ -1,0 +1,5 @@
+C:\Users\rohit ka pc\AndroidStudioProjects\DictionaryDB\app\build\intermediates\classes\debug
+C:\Users\rohit ka pc\AndroidStudioProjects\DictionaryDB\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-393bee2049e74b9937849e8258ea4da2f21fb827.jar
+C:\Users\rohit ka pc\AndroidStudioProjects\DictionaryDB\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-1b3f5d8e9c87ed0f61d4b2b110ecfa7c8278b9a1.jar
+C:\Users\rohit ka pc\AndroidStudioProjects\DictionaryDB\app\build\intermediates\pre-dexed\debug\classes-cbf687d570ecceb03b56c368d8f6c7c8479aa4a1.jar
+C:\Users\rohit ka pc\AndroidStudioProjects\DictionaryDB\app\build\intermediates\pre-dexed\debug\classes-c55d1fcf52ee8d96309de4a57a0cd1c9f83feff8.jar

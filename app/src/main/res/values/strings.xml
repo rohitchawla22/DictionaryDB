@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dictionary</string>
+    <string name="search">Search</string>
+    <string name="word">Word</string>
+    <string name="meaning">Meaning</string>
+    <string name="loading">Loading...</string>
+    <string name="update">Update</string>
+    <string name="enter_word_to_search">Enter the word</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="word_not_found">Word not found</string>
+
+</resources>

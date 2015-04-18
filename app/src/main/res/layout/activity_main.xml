@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.word.dictionary.MainActivity"
+    android:background="@drawable/bgimg1">
+    
+    
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="6" >
+
+        <AutoCompleteTextView
+            android:id="@+id/wordToSearchView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_word_to_search"
+            android:padding="4dp"
+            android:layout_weight="4"
+            android:singleLine="true"
+            android:textIsSelectable="false"
+            android:focusable="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/general_text_color" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/search"
+            android:layout_weight="2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/general_text_color" />
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/searchLayout"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title">
+        <TextView 
+            android:id="@+id/wordTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffff6c1c"
+            android:hint="@string/word"
+            android:textSize="35dp" />
+        <TextView
+            android:id="@+id/meaningTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ffff9c46"
+            android:layout_marginTop="10dp"
+            android:hint="@string/meaning"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</RelativeLayout>
